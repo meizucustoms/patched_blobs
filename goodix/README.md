@@ -3,6 +3,8 @@
 Flyme 8.0.5.0A fingerprint stack, 
 patched to be working in Android R.
 
+Thanks to @h2o64 for help with that.
+
 ## STILL NEEDS MORE PATCHING
 Parcel size wasn't patched to 120 bytes and 
 libc is throwing stack errors.
