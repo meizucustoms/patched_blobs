@@ -1,4 +1,4 @@
-# acdb
+# goodix
 
 Flyme 8.0.5.0A fingerprint stack, 
 patched to be working in Android R.

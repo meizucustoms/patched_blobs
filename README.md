@@ -1,3 +1,3 @@
 # Patched blobs
 
-Patched Nougat M6 Note blobs for 8.0+.
+Nougat M6 Note blobs, patched to work with Android 11.
