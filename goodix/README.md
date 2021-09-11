@@ -5,11 +5,10 @@ patched to be working in Android R.
 
 Thanks to @h2o64 for help with that.
 
-## STILL NEEDS MORE PATCHING
-Parcel size wasn't patched to 120 bytes and 
-libc is throwing stack errors.
+## If you see some bugs
+libgf_hal still needs Parcel resize patch.
 
-## Already done
+## What's done
 Removed missing dependencies:
 * libbacktrace
 * libunwind
@@ -18,7 +17,7 @@ Removed missing dependencies:
 * libsoftkeymaster
 * libkeymaster1
 
-Added libbinder_shim to goodixfingerprintd,
-because it hasn't found symbol
-`_ZN7android15PermissionCache15checkPermissionERKNS_8String16Eij`,
-referrenced by libbinder.
+Recompiled from leaked BSP on Android R:
+* libgoodixfingerprintd_binder
+* fingerprint.msm8953
+* goodixfingerprintd
